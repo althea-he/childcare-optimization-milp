@@ -81,7 +81,7 @@ The problem is formulated as a **Mixed-Integer Linear Program (MILP)**:
 
 ## ⚙️ How to Run
 
-```bash
+```
 # Create environment
 conda env create -f environment.yml
 
@@ -90,3 +90,42 @@ conda activate your_env_name
 
 # Run notebook
 jupyter notebook "Project 1 Code.ipynb"
+
+```
+
+## 📂 Repository Structure
+
+```
+├── ChildCareDeserts_Data/        # Raw datasets
+├── *.xlsx                        # Cleaned datasets
+├── Project 1 Code.ipynb          # Modeling & experiments
+├── IEOR4004_Fall25_Project1.pdf  # Problem definition
+├── Optimization_Project_1.pdf    # Final report
+└── README.md
+```
+
+## 📈 Results & Insights
+	•	The framework identifies cost-optimal strategies for eliminating supply gaps across regions
+	•	New facility construction is the primary driver of capacity expansion
+	•	Incremental expansion improves cost efficiency
+	•	Spatial and cost constraints significantly impact feasibility
+
+## 🛠️ Tech Stack
+	•	Python (Pandas, NumPy)
+	•	Gurobi (MILP)
+	•	Data Engineering & Feature Engineering
+	•	Geospatial Processing
+
+## 👥 Contributors
+	•	Althea He
+	•	Brian Tian Bai
+	•	Chloe Liu
+	•	Mary Zeng
+	•	Thanushree Ramachandraiah
+	•	Zhewei Deng
+
+
+## ✨ Notes
+
+This project demonstrates how optimization and data engineering techniques can be applied to large-scale resource allocation problems with real-world constraints.
+  
